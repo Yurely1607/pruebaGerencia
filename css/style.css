@@ -173,7 +173,7 @@ div {
 	left: 730px;
 	top: 885px;
 }
-        #apDiv18 {
+        #apDiv18{
 	position: absolute;
 	width: 200px;
 	height: 115px;
@@ -325,6 +325,7 @@ li{
 	border-radius: 7px;
 	box-shadow: inset 0px 0px 10px white;
 	margin-top: 7px;
+	position:relative;
 }
 section{
 	width: 713px;
@@ -388,4 +389,52 @@ p {
 	font-size: 12px;
 	font-weight: normal;
 	color: #333;
+}
+.submenu .lisub {
+ 	float: left;
+	position:relative;
+	width:80px;
+}
+
+nav li li a{
+   float:left;
+   width:80px;
+   display:block;
+}
+nav li .submenu {
+   width: 80px;
+   margin:0;
+   display:none;
+   position:absolute;
+   left:-0px;
+   padding-top:10px;
+
+}
+nav li:hover .submenu {
+   display: block;
+}
+#TopNavBar{
+visibility:hidden;
+}
+.NavButtonBar{
+visibility:hidden;
+}
+div.Autores{
+	width:100%;
+	position:relative;
+}
+div.Autores img{
+width:100px;
+}
+ul li.itemAutor{
+background-color: white;
+padding:5px;
+color:#003f5e;
+}
+ul.boxAutores{
+	position:absolute;
+}
+h3.textoTituloh3, h2{
+color:#003f5e;
+font-size:20px;
 }
